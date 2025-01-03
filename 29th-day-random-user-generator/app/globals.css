@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.appreciation-enter {
+  opacity: 0;
+}
+.appreciation-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.appreciation-exit {
+  opacity: 1;
+}
+.appreciation-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
